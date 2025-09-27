@@ -38,6 +38,7 @@
   --sidebar-accent-foreground: oklch(1 0 0); /* White sidebar accent text */
   --sidebar-border: oklch(0.295 0 0); /* Dark gray sidebar border */
   --sidebar-ring: oklch(0.647 0.179 41.116); /* Orange sidebar focus ring */
+  --font-inter: 'InterVariable', 'Inter', sans-serif;
 }
 
 .dark {
@@ -122,5 +123,7 @@
   }
   body {
     @apply bg-background text-foreground;
+    font-family: var(--font-inter);
+    font-feature-settings: "ss01" 1, "ss02" 1, "ss07" 1, "ss08" 1, "cv01" 1, "zero" 1, "cv10" 1, "cv06" 1, "cv11" 1, "cv12" 1, "cv13" 1;
   }
 }

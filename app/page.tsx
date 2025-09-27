@@ -97,20 +97,23 @@ export default function HomePage() {
                 <Button
                   variant="outline"
                   className="bg-background/60 border-border hover:bg-background/80 text-foreground px-6 py-5 text-base"
+                  asChild
                 >
-                  Email me
+                  <Link href="/projects">Projects</Link>
                 </Button>
                 <Button
                   variant="outline"
                   className="bg-background/60 border-border hover:bg-background/80 text-foreground px-6 py-5 text-base"
+                  asChild
                 >
-                  Github
+                  <Link href="/about">About</Link>
                 </Button>
                 <Button
                   variant="outline"
                   className="bg-background/60 border-border hover:bg-background/80 text-foreground px-6 py-5 text-base"
+                  asChild
                 >
-                  LinkedIn
+                  <Link href="/contact">Contact</Link>
                 </Button>
               </div>
             </div>
@@ -125,7 +128,7 @@ export default function HomePage() {
       </section>
 
       {/* Projects Section */}
-      <section className="min-h-screen bg-card px-6 py-24">
+      <section id="projects" className="min-h-screen bg-card px-6 py-24">
         <div className="max-w-7xl mx-auto">
           <h2 className=" text-6xl md:text-7xl font-black text-card-foreground mb-16 text-center">Projects</h2>
           <div className="grid grid-cols-1 gap-8 md:grid-cols-2 lg:grid-cols-3">
@@ -173,7 +176,7 @@ export default function HomePage() {
       </section>
 
       {/* About Section */}
-      <section className="bg-background px-6 py-24">
+      <section id="about" className="bg-background px-6 py-24">
         <div className="mx-auto max-w-6xl space-y-12">
           <div className="space-y-4 text-left">
             <p className="text-xs uppercase tracking-[0.4em] text-muted-foreground">About</p>
@@ -213,29 +216,18 @@ export default function HomePage() {
                 <li>Secure authentication and authorization.</li>
               </ul>
             </div>
-            <div className="space-y-4">
-              <h3 className="text-xl font-semibold text-foreground">How we’ll work</h3>
-              <p className="text-sm text-muted-foreground leading-relaxed">
-                Most engagements last 8–16 weeks and start with hands-on discovery. We agree on outcomes up front, ship in
-                weekly increments, and keep a shared changelog so decisions never disappear.
-              </p>
-              <Button asChild variant="outline" className="border-border text-foreground hover:bg-card/80">
-                <Link href="/about">More about my practice</Link>
-              </Button>
-            </div>
           </div>
         </div>
       </section>
 
       {/* Contact Section */}
-      <section className="bg-card px-6 py-24">
+      <section id="contact" className="bg-card px-6 py-24">
         <div className="mx-auto max-w-6xl space-y-12">
           <div className="space-y-4 text-left">
             <p className="text-xs uppercase tracking-[0.4em] text-card-foreground/70">Contact</p>
-            <h2 className="text-5xl font-black text-card-foreground sm:text-6xl">Bring your context, I’ll bring a plan.</h2>
+            <h2 className="text-5xl font-black text-card-foreground sm:text-6xl">Bring your context, I'll bring a plan.</h2>
             <p className="max-w-3xl text-lg text-card-foreground/80 sm:text-xl">
-              Share the product, timelines, and constraints you’re working with. I respond quickly with next steps and, when
-              helpful, an agenda for a short discovery call.
+              Share the product, timelines, and constraints you're working with. I respond quickly with next steps.
             </p>
           </div>
 
@@ -259,41 +251,11 @@ export default function HomePage() {
                   </a>
                 </li>
               </ul>
-              <p className="mt-6 text-sm text-card-foreground/70">
-                I typically book projects 4–6 weeks out, but I’ll always confirm availability right away.
-              </p>
-            </div>
-
-            <div className="rounded-3xl border border-border bg-background/70 p-6 text-left backdrop-blur">
-              <h3 className="text-lg font-semibold text-card-foreground">What happens next</h3>
-              <ol className="mt-4 space-y-4 text-sm text-card-foreground/80">
-                <li>
-                  <span className="font-semibold text-card-foreground">Discovery call:</span> we cover goals, product
-                  context, and timelines.
-                </li>
-                <li>
-                  <span className="font-semibold text-card-foreground">Scope outline:</span> I share engagement options,
-                  milestones, and collaboration cadence.
-                </li>
-                <li>
-                  <span className="font-semibold text-card-foreground">Embedded execution:</span> we ship prototypes,
-                  design systems, and full-stack features together.
-                </li>
-              </ol>
-              <p className="mt-6 text-sm text-card-foreground/70">
-                Expect transparent pricing, shared documentation, and weekly checkpoints from kickoff to handoff.
-              </p>
             </div>
           </div>
-
           <div className="flex flex-wrap items-center gap-4">
             <Button asChild size="lg" className="bg-primary text-primary-foreground hover:bg-primary/90">
-              <a href="mailto:hello@11011.studio?subject=Project Inquiry">Start the conversation</a>
-            </Button>
-            <Button asChild variant="outline" className="border-border text-card-foreground hover:bg-background/80">
-              <a href="https://cal.com/dillonring/discovery" target="_blank" rel="noreferrer">
-                Book a discovery call
-              </a>
+              <a href="/contact">Start the conversation</a>
             </Button>
           </div>
         </div>
@@ -302,9 +264,8 @@ export default function HomePage() {
       {/* Footer */}
       <footer className="bg-background border-t border-border px-6 py-12">
         <div className="max-w-7xl mx-auto text-center">
-          <div className=" text-2xl font-bold text-foreground mb-4">Last Updated: 2025-09-26</div>
           <p className=" text-muted-foreground text-sm">
-            © 2025 Dillon Ring. All rights reserved.
+            © {new Date().getFullYear()} Dillon Ring. All rights reserved.
           </p>
         </div>
       </footer>
