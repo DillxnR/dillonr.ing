@@ -32,7 +32,7 @@ export const projects: Project[] = [
       { label: 'Company', value: 'SRTNR' },
     ],
     link: 'https://srtnr.co',
-    image: '/images/global-assets/SCR-20250926-tody.png',
+    image: 'https://flare.dillon.network/global-assets/SCR-20250926-tody.png',
   },
   {
     slug: 'srtnr-mini',
@@ -53,7 +53,7 @@ export const projects: Project[] = [
       { label: 'Timeline', value: '2025' },
     ],
     link: 'https://github.com/DillxnR/srtnr-mini',
-    image: '/images/global-assets/SCR-20250926-trsn-2.png',
+    image: 'https://flare.dillon.network/global-assets/SCR-20250926-trsn-2.png',
   },
   {
     slug: 'favicon-worker',
@@ -74,7 +74,7 @@ export const projects: Project[] = [
       { label: 'Timeline', value: '2025' },
     ],
     link: 'https://github.com/DillxnR/favicon.11011',
-    image: '/images/global-assets/SCR-20250926-tsdd.png',
+    image: 'https://flare.dillon.network/global-assets/SCR-20250926-tsdd.png',
   },
   {
     slug: 'this-website',
@@ -82,7 +82,7 @@ export const projects: Project[] = [
     name: 'This Website',
     summary: 'My personal website.',
     description: [
-      'This website is my personal website. It\'s built with Next.js and Tailwind CSS, and hosted on Vercel.',
+      'This website is my personal website. It\'s built with Next.js and Tailwind CSS, and hosted on Cloudflare Workers.',
     ],
     highlights: [
       'Built in 72 hours.',
@@ -91,11 +91,10 @@ export const projects: Project[] = [
     ],
     tech: ['Next.js', 'Tailwind', 'Cloudflare Workers', 'TypeScript'],
     meta: [
-      { label: 'Role', value: 'Lead Engineer' },
-      { label: 'Timeline', value: 'Q1 – Q3 2023' },
-      { label: 'Partner', value: 'Pulse Health Labs' },
+      { label: 'Role', value: 'Developer' },
+      { label: 'Timeline', value: '2025' },
     ],
     link: 'https://dillonr.ing',
-    image: '/images/global-assets/SCR-20250926-tvfz-2.png',
+    image: 'https://flare.dillon.network/global-assets/SCR-20250926-tvfz-2.png',
   }
 ]
