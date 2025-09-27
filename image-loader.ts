@@ -6,7 +6,7 @@ const normalizeSrc = (src: string) => {
 };
  
 export default function cloudflareLoader({ src, width, quality }: ImageLoaderProps) {
-  if (process.env.NODE_ENV === "development") {
+  if (process.env.NODE_ENV === "development" || process.env.NODE_ENV === "production") {
     // Serve the original image when using `next dev`
     return src;
   }
