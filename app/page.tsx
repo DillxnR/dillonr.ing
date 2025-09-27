@@ -247,7 +247,7 @@ export default function HomePage() {
                 </li>
                 <li>
                   <a href="https://github.com/dillonring" className="hover:text-primary">
-                    github.com/dillonring
+                    github.com/DillxnR
                   </a>
                 </li>
               </ul>
@@ -255,7 +255,7 @@ export default function HomePage() {
           </div>
           <div className="flex flex-wrap items-center gap-4">
             <Button asChild size="lg" className="bg-primary text-primary-foreground hover:bg-primary/90">
-              <a href="/contact">Start the conversation</a>
+              <Link href="/contact">Start the conversation</Link>
             </Button>
           </div>
         </div>
