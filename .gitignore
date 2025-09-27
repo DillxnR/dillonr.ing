@@ -31,7 +31,6 @@ next-env.d.ts
 cloudflare-env.d.ts
 
 # wrangler
-wrangler.jsonc
 .dev.vars
 
 # other
