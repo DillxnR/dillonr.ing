@@ -4,7 +4,6 @@
 @custom-variant dark (&:is(.dark *));
 
 :root {
-  /* Updated color tokens for brutalist dark aesthetic */
   --background: oklch(0 0 0); /* Pure black background */
   --foreground: oklch(1 0 0); /* Pure white text */
   --card: oklch(0.295 0 0); /* Dark gray for cards */
@@ -42,7 +41,6 @@
 }
 
 .dark {
-  /* Dark mode uses same values as root for consistent brutalist aesthetic */
   --background: oklch(0 0 0);
   --foreground: oklch(1 0 0);
   --card: oklch(0.295 0 0);

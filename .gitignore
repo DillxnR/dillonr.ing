@@ -37,3 +37,5 @@ cloudflare-env.d.ts
 .vscode
 .wrangler
 .DS_Store
+
+pnpm-lock.yaml
