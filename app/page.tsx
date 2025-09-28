@@ -246,8 +246,8 @@ export default function HomePage() {
                   </a>
                 </li>
                 <li>
-                  <a href="https://github.com/dillonring" className="hover:text-primary">
-                    github.com/DillxnR
+                  <a href="https://github.com/Dillon1000" className="hover:text-primary">
+                    github.com/Dillon1000
                   </a>
                 </li>
               </ul>

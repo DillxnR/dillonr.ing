@@ -16,8 +16,8 @@ const contactChannels = [
   },
   {
     label: 'GitHub',
-    value: 'github.com/DillxnR',
-    href: 'https://github.com/DillxnR',
+    value: 'github.com/Dillon1000',
+    href: 'https://github.com/Dillon1000',
     description: 'Peek at how I write code, some of my projects, and what I\'m working on.',
   },
 ]

@@ -52,7 +52,7 @@ export const projects: Project[] = [
       { label: 'Role', value: 'Developer' },
       { label: 'Timeline', value: '2025' },
     ],
-    link: 'https://github.com/DillxnR/srtnr-mini',
+    link: 'https://github.com/Dillon1000/srtnr-mini',
     image: 'https://flare.dillon.network/global-assets/SCR-20250926-trsn-2.png',
   },
   {
@@ -73,7 +73,7 @@ export const projects: Project[] = [
       { label: 'Role', value: 'Developer' },
       { label: 'Timeline', value: '2025' },
     ],
-    link: 'https://github.com/DillxnR/favicon.11011',
+    link: 'https://github.com/Dillon1000/favicon.11011',
     image: 'https://flare.dillon.network/global-assets/SCR-20250926-tsdd.png',
   },
   {
